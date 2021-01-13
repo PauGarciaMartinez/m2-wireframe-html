@@ -20,26 +20,41 @@ header {
 }
 
 .logo {
-    background-color:rgb(204, 204, 204);
-    color:rgba(1, 1, 1, 0);
-    width: 15%;
-    padding: 0.5rem 0rem;
-}
-
-header ul {
     display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    margin-top: -2rem;
-    margin-right: 1rem;
+    flex-direction: column;
+    justify-self: center;
+    width: 10em;
+    height: 4em;
 }
 
 .social {
-    background-color:rgb(211, 211, 211);
-    padding: 1rem 1rem;
-    color: rgba(1, 1, 1, 0);
-    border-radius: 50%;
-    margin: 0.2rem;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-top: -3rem;
+    margin-right: 1rem;
+}
+
+.social a {
+    margin: 0.5rem;
+}
+
+.social i:hover {
+    color:sienna;
+}
+
+.fa-linkedin-in {
+    font-size: 2rem;
+    color:sandybrown;
+}
+
+.fa-twitter {
+    font-size: 2rem;
+    color:sandybrown;
+}
+.fa-github {
+    font-size: 2rem;
+    color:sandybrown;
 }
 
 /* NAVIGATION BAR */
@@ -56,12 +71,22 @@ header ul {
     padding: 0;
 }
 
-.navlink {
+.navlist {
     flex-grow: 1;
-    background-color:rgb(211, 211, 211);
-    color: rgba(1, 1, 1, 0);
+    background-color: sandybrown;
     margin-right: 0.1rem;
     height: 2rem;
+}
+
+.navlink {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: sienna;
+    text-align: center;
+}
+
+.navlink:hover {
+    color: rgb(73, 20, 20);
 }
 
 /* HIGHLIGHTS SECTION */
