@@ -1,0 +1,108 @@
+/* GLOBAL SETTINGS */
+
+html {
+    height: 100vh;
+}
+
+/* LAYOUT */
+
+.container {
+    max-width: 50%;  
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+    background-color: rgb(47, 47, 47);
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.logo {
+    background-color:rgb(204, 204, 204);
+    color:rgba(1, 1, 1, 0);
+    width: 15%;
+    padding: 0.5rem 0rem;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-top: -2rem;
+    margin-right: 1rem;
+}
+
+.social {
+    background-color:rgb(211, 211, 211);
+    padding: 1rem 1rem;
+    color: rgba(1, 1, 1, 0);
+    border-radius: 50%;
+    margin: 0.2rem;
+}
+
+/* NAVIGATION BAR */
+
+.navbar {
+    background-color: white;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.navlink {
+    flex-grow: 1;
+    background-color:rgb(211, 211, 211);
+    color: rgba(1, 1, 1, 0);
+    margin-right: 0.1rem;
+    height: 2rem;
+}
+
+/* HIGHLIGHTS SECTION */
+
+.highlights {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem auto;
+}
+
+.highlighted-article {
+    flex-grow: 1;
+    color:rgba(1, 1, 1, 0);
+    background-color: rgb(151, 151, 151);
+    margin-right: 0.1rem;
+    height: 12rem;
+}
+
+/* MAIN SECTION */
+
+.main-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(151, 151, 151);
+    color: rgba(1, 1, 1, 0);
+    height: 35rem;
+    margin-bottom: 1rem;
+}
+
+.main-articles-container {
+    background-color: rgb(61, 61, 61);
+    color: rgba(1, 1, 1, 0);
+    height: 35rem;
+    width: 60%;
+}  
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(47, 47, 47);
+    color: rgba(1, 1, 1, 0);
+    height: 3rem;
+}
