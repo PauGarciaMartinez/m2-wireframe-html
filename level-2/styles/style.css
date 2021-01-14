@@ -72,6 +72,7 @@ header {
 }
 
 .navlist {
+    display: flex;
     flex-grow: 1;
     background-color: sandybrown;
     margin-right: 0.1rem;
@@ -79,10 +80,12 @@ header {
 }
 
 .navlink {
+    flex-grow: 1;
     font-size: 1.2em;
     text-decoration: none;
     color: sienna;
     text-align: center;
+    margin-top: 0.3rem;
 }
 
 .navlink:hover {
